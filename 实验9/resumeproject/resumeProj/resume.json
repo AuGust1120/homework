@@ -1,0 +1,574 @@
+{
+  "header": {
+    "name": "xxxxxx",
+    "title": "xxxxxx"
+  },
+  "about": {
+    "socials": {
+      "blog": {
+        "linkTitle": "xxxxxx",
+        "url": "xxxxxx",
+        "icon": "xxxxxx"
+      },
+      "github": {
+        "linkTitle": "xxxxxx",
+        "url": "xxxxxx",
+        "icon": "xxxxxx"
+      },
+      "twitter": {
+        "linkTitle": "xxxxxx",
+        "url": "xxxxxx",
+        "icon": "xxxxxx"
+      },
+      "weibo": {
+        "linkTitle": "xxxxxx",
+        "url": "xxxxxx",
+        "icon": "xxxxxx"
+      },
+      "stackoverflow": {
+        "linkTitle": "xxxxxx",
+        "url": "xxxxxx",
+        "icon": "xxxxxx"
+      }
+    },
+    "introduction": [
+        {"item": "xxxxxx"},
+        {"item": "xxxxxx"},
+        {"item": "xxxxxx"},
+        {"item": "xxxxxx"}
+      ],
+    "location": "xxxxxx",
+    "phone": "xxxxxx",
+    "email": "xxxxxx",
+    "hire": "xxxxxx",
+    "img": "xxxxxx"
+  },
+  "education": {
+    "universities": [
+      {
+        "name": "xxxxxx",
+        "location": "xxxxxx",
+        "year": "xxxxxx",
+        "items": [
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          },
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          },
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "name": "xxxxxx",
+        "location": "xxxxxx",
+        "year": "xxxxxx",
+        "items": [
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          },
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          },
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "name": "xxxxxx",
+        "location": "xxxxxx",
+        "year": "xxxxxx",
+        "items": [
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          },
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          },
+          {
+            "icon": "xxxxxx",
+            "text": "xxxxxx"
+          }
+        ]
+      }
+    ]
+  },
+  "employment": {
+    "jobs": [
+      {
+        "name": "xxxxxx",
+        "position": "xxxxxx",
+        "year": "xxxxxx",
+        "description": [
+          {
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "name": "xxxxxx",
+        "position": "xxxxxx",
+        "year": "xxxxxx",
+        "description": [
+          {  
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "name": "xxxxxx",
+        "position": "xxxxxx",
+        "year": "xxxxxx",
+        "description": [
+          {
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          },{
+            "desc": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "name": "xxxxxx",
+        "position": "xxxxxx",
+        "year": "xxxxxx",
+        "description": [
+          {
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          },
+          {
+            "desc": "xxxxxx"
+          }
+        ]
+      }
+    ]
+  },
+  "skill": {
+    "programming": {
+      "text": "xxxxxx",
+      "children": [
+        {
+          "text": "xxxxxx",
+          "skills": [
+            {
+              "name": "xxxxxx",
+              "rating": [0,0,0,0,0]
+            },
+            {
+              "name": "xxxxxx",
+              "rating": [0,0,0,0,0]
+            },
+            {
+              "name": "xxxxxx",
+              "rating": [0,0,0,0]
+            }
+          ]
+        },
+        {
+          "text": "xxxxxx",
+          "skills": [
+            {
+              "name": "xxxxxx",
+              "rating": [0,0,0]
+            },
+            {
+              "name": "xxxxxx",
+              "rating": [0,0,0]
+            }
+          ]
+        },
+        {
+          "text": "xxxxxx",
+          "skills": [
+            {
+              "name": "xxxxxx",
+              "rating": [0,0,0,0,0]
+            },
+            {
+              "name": "xxxxxx",
+              "rating": [0,0,0,0]
+            },
+            {
+              "name": "xxxxxx",
+              "rating": [0,0,0,0]
+            }
+          ]
+        }
+      ]
+    },
+    "library": {
+      "text": "xxxxxx",
+      "children": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ]
+    },
+    "tooling": {
+      "text": "xxxxxx",
+      "children": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ]
+    },
+    "language": {
+      "text": "xxxxxx",
+      "children": [ 
+          {"name": "xxxxxx"},
+          {"name": "xxxxxx"}
+        ]
+    }
+  },
+  "project": {
+    "history": [
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ],
+        "links": 
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      },
+      {
+        "icon": "xxxxxx",
+        "name": "xxxxxx",
+        "year": "xxxxxx",
+        "library": [ {"item": "xxxxxx"}],
+        "description": [ 
+          {"item": "xxxxxx"},
+          {"item": "xxxxxx"}
+        ],
+        "links": [
+          {
+            "title": "xxxxxx",
+            "icon": "xxxxxx",
+            "url": "xxxxxx"
+          }
+        ]
+      }
+    ]
+  },
+  "paper": {
+    "items": [
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      },
+      {
+        "title": "xxxxxx",
+        "year": "xxxxxx",
+        "auth": "xxxxxx",
+        "journal": "xxxxxx"
+      }
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+}
+
+.main {
+    height: 150vh;
+    width: 1220px;
+    /* background: url("../img/pj5.png") no-repeat;
+    opacity: .5; 
+    float: left; 
+    position: fixed; 
+    z-index: -1;*/
+    padding-top: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.background {
+    position: absolute;
+    opacity: .3;
+}
+
+.m-top {
+    margin-top: 28px;
+    margin-left: 124px;
+}
+
+.t-side {
+    display: inline-block;
+}
+
+.t-main {
+    display: inline-block;
+    padding-left: 51px;
+    position: absolute;
+}
+
+.t-title {
+    display: inline-block;
+    height: 103px;
+    line-height: 64px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.t-title::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 50px;
+    background-color: #0169B2;
+    margin-top: 2px;
+}
+
+.t-content {
+    width: 458px;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 32px;
+    margin-bottom: 29px;
+}
+
+.button {
+    display: inline-block;
+    height: 40px;
+    width: 198px;
+    background-color: #0169B2;
+    border-radius: 5px;
+    line-height: 40px;
+    position: relative;
+}
+
+.button>div {
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: white;
+}
+
+.btn-content {
+    left: 21px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.m-main {
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-top: 62px;
+}
+
+.c-title {
+    position: relative;
+    margin-bottom: 9px;
+    height: 67px;
+    border-bottom: rgb(218, 218, 218) 2px solid;
+}
+
+.blog,
+.c-subtitle {
+    display: inline-block;
+}
+
+.blog {
+    font-size: 29px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.blog::after {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 18px;
+    margin-left: 16px;
+    background-color: #0169B2;
+}
+
+.c-subtitle {
+    position: absolute;
+    left: 102px;
+    top: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 12px;
+    letter-spacing: 6px;
+}
+
+.c-button {
+    margin-top: 5px;
+    position: absolute;
+    right: 0px;
+    width: 150px;
+    height: 32px;
+}
+
+.c-button>div {
+    top: -3.5px;
+}
+
+.c-button>.btn-content {
+    left: 40px;
+}
+
+.c-block>div,
+.c-block>a {
+    display: inline-block;
+    position: absolute;
+}
+
+.c-block {
+    position: relative;
+    height: 54px;
+    border-bottom: rgb(209, 209, 209) 2px solid;
+    padding-top: 32px;
+}
+
+.c-main {
+    padding: 0;
+    margin: 0;
+}
+
+.time {
+    font-size: 14px;
+    letter-spacing: .3px;
+    top: 37px;
+}
+
+.job {
+    background-color: #0599d8;
+    text-align: center;
+    margin-left: 30px;
+    left: 80px;
+    width: 111px;
+    height: 20px;
+    border-radius: 14px;
+    color: #fff;
+    padding-top: 5.5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.job-b {
+    background-color: #54b371;
+}
+
+.link {
+    color: #000;
+    top: 36px;
+    left: 242px;
+    letter-spacing: 6.5px;
+}
+
+.m-bottom {
+    margin-top: 10px;
+    background-color: rgb(241, 241, 241);
+    height: 450px;
+}
+
+.b-pane {
+    display: inline-block;
+    position: relative;
+    width: 539px;
+    margin-left: 52px;
+    margin-top: 12px;
+    margin-right: 14px;
+    vertical-align: top;
+}
+
+.b-title::before {
+    content: "";
+    display: inline-block;
+    background-color: #1c84ce;
+    height: 32px;
+    width: 6px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.b-title {
+    display: inline-block;
+    margin-left: 19px;
+    letter-spacing: 6.5px;
+    top: 0;
+    color: #238cd6;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.b-main {
+    margin-top: 20px;
+    text-align: center;
+    border: rgb(136, 135, 135) 2px solid;
+    height: 318px;
+    background-color: #fff;
+}
+
+.b-address {
+    margin-top: 10px;
+    height: 68px;
+    font-size: 26px;
+    letter-spacing: 6px;
+    padding-left: 5px;
+    line-height: 89px;
+}
+
+.b-number {
+    font-size: 44px;
+    font-weight: bold;
+    color: #137cc7;
+}
+
+.b-profile {
+    display: inline-block;
+    width: 430px;
+    height: 78px;
+    letter-spacing: 4px;
+    margin-top: 16px;
+    border-bottom: rgb(179, 178, 178) 2px solid;
+}
+
+.b-profile>span {
+    display: inline-block;
+    word-break: break-all;
+    font-size: 19px;
+    width: 300px;
+    line-height: 28px;
+}
+
+.b-time {
+    margin-top: 16px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #2b8dd3;
+}
+
+.b-button {
+    margin-top: 73px;
+    width: 431px;
+    height: 72px;
+    position: relative;
+}
+
+.icon {
+    box-sizing: border-box;
+    top: 27px;
+    left: 63px;
+    width: 28px;
+    height: 20px;
+    background-color: #2b94df;
+    border: #fff 2px solid;
+}
+
+.icon::after,
+.icon::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    top: 3px;
+    background-color: #fff;
+}
+
+.icon::before {
+    left: -2px;
+    transform: rotateZ(30deg);
+}
+
+.icon::after {
+    left: 10.5px;
+    transform: rotateZ(-30deg);
+}
+
+.b-button>.btn-content {
+    top: 17px;
+    left: 105px;
+    font-size: 20px;
+    letter-spacing: 7.5px;
+}
+
+.b-button>.right-arrow {
+    top: 16px;
+}
+
+.b-content {
+    width: 288px;
+    word-wrap: break-word;
+    margin-left: 121px;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 28px;
+}

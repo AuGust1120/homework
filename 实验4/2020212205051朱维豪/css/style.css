@@ -1,0 +1,223 @@
+/*.m-bk {
+    position: absolute;
+    border: 1px;
+    width: 531px;
+    height: auto;
+    background: url('../img/bk.jpg') no-repeat;
+    opacity: .2;
+}*/
+
+.background {
+    opacity: .5;
+    position: fixed;
+    z-index: -1;
+}
+
+.main {
+    display: inline-block;
+    padding: 5px 7px;
+    width: 295px;
+}
+
+.info-purchase {
+    height: 57px;
+    padding: 13px 7.5px;
+    padding-left: 16px;
+    padding-bottom: 0;
+    height: 44px;
+}
+
+.wait-module {
+    display: inline-block;
+    width: 20%;
+    margin: auto 1px;
+}
+
+.num,
+.wait-title {
+    display: block;
+    text-align: center;
+    line-height: 16px;
+    font-size: 11px;
+}
+
+.num {
+    color: rgba(248, 58, 29, 0.877);
+    font-weight: bolder;
+    margin: 0px auto;
+    font-size: 14px;
+}
+
+.wait-title {
+    letter-spacing: 0.9px;
+    padding-right: .25px;
+}
+
+.bad-report {
+    position: relative;
+    height: 28px;
+    padding: 3px auto;
+    line-height: 25px;
+    font-size: 11px;
+    padding-left: 82px;
+    letter-spacing: 1px;
+    background-color: #FFE5DEFF;
+    color: rgba(248, 58, 29, 0.877);
+}
+
+.bad-logo {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 45px;
+    border: 5px solid #FFE5DEFF;
+    border-left: 7.5px solid rgba(248, 58, 29, 0.877);
+}
+
+.header {
+    height: 35px;
+    position: relative;
+}
+
+.header-module {
+    display: inline-block;
+    width: 31.5px;
+    margin-top: 16px;
+    margin-left: 19px;
+    margin-right: 1px;
+    line-height: 17.5px;
+    text-align: center;
+    font-size: 11.5px;
+    font-weight: 250;
+}
+
+.header-focus {
+    border-bottom: 2.5px solid rgb(238, 81, 57);
+}
+
+.ad-pane {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 0;
+}
+
+.ads {
+    display: inline-block;
+    line-height: 25px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-right: 41px;
+}
+
+.ad-focus {
+    letter-spacing: 1.1px;
+    margin-right: 21px;
+    color: rgba(248, 58, 29, 0.877);
+}
+
+.asd {
+    letter-spacing: 1px;
+}
+
+.functions {
+    display: inline-block;
+    position: relative;
+    margin: 13px -3px 0;
+    width: 72px;
+    height: 74px;
+    text-align: center;
+    border: rgb(197, 193, 193) 2px solid;
+    border-bottom: rgba(248, 58, 29, 0.877) 2px solid;
+    border-left: none;
+    border-collapse: collapse;
+}
+
+.functions img {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    width: 27px;
+    height: 27px;
+}
+
+.subtitle {
+    font-size: 12px;
+}
+
+.function-focus {
+    border: rgba(248, 58, 29, 0.877) 2px solid;
+    border-bottom: none;
+    margin-left: 0.5px;
+    color: rgba(241, 62, 34, 0.76);
+}
+
+.function-pane {
+    height: 157px;
+    border: rgba(248, 58, 29, 0.877) 2px solid;
+    border-top: none;
+    position: relative;
+    margin-top: -2px;
+}
+
+.second-title {
+    height: 34px;
+    text-align: left;
+    margin: auto 25px;
+}
+
+.function-subtitle {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    font-size: 12px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.function-subtitle-focus {
+    margin-left: 0px;
+    color: rgba(248, 58, 29, 0.877);
+}
+
+.close {
+    position: absolute;
+    right: 5px;
+    top: -1px;
+    font-size: 16.5px;
+}
+
+input {
+    line-height: 23px;
+    margin-left: 15px;
+    border-color: rgb(138, 137, 137);
+    width: 186px;
+    font-size: 10px;
+    padding-left: 5px;
+    letter-spacing: 0.5px;
+}
+
+.price {
+    margin-top: 3.5px;
+    margin-left: 20px;
+    font-size: 11px;
+}
+
+.price-num {
+    font-weight: 450;
+    letter-spacing: 1.5px;
+    color: rgba(248, 58, 29, 0.877);
+}
+
+.now-button {
+    display: inline-block;
+    background-color: rgba(248, 58, 29, 0.877);
+    margin-left: 15px;
+    margin-top: 8px;
+    width: 66.5px;
+    height: 21px;
+    text-align: center;
+    padding-top: 6px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 2.5px;
+}

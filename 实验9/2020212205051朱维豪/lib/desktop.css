@@ -1,0 +1,426 @@
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+.head,
+.nav,
+.context {
+    padding: 0 50px;
+}
+
+.head {
+    background-color: #018CEB;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    height: 85px;
+}
+
+.login-regist {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 35px;
+}
+
+.login,
+.regist,
+.hr {
+    line-height: 35px !important;
+    width: 15%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.hr {
+    width: 2%;
+    color: rgba(255, 255, 255, 0.562);
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    height: 25px;
+    width: 100%;
+}
+
+.type {
+    font-family: 'Microsoft YaHei';
+    color: rgb(112, 112, 112);
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 0;
+    width: 25%;
+}
+
+.type>i {
+    margin-left: 4px;
+    font-size: 1px;
+    color: rgb(179, 179, 179);
+    background-color: #fff;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 66%;
+}
+
+.search>i {
+    line-height: 25px;
+    color: rgb(112, 112, 112);
+    width: 12%;
+    text-align: center;
+}
+
+.head>.col-md-9 {
+    margin-top: 35px;
+    font-size: 14px;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+    height: 30px;
+}
+
+.active {
+    background-color: #0169B0;
+}
+
+.head>.col-md-9 ul {
+    height: 30px;
+}
+
+.head>.col-md-9 li {
+    padding: 0;
+    text-align: center;
+    margin-left: 30px;
+    height: 30px;
+    width: 60px;
+    border-radius: 3px;
+    line-height: 30px;
+}
+
+.head>.col-md-9 i {
+    margin-left: 2px;
+}
+
+.nav {
+    margin: 20px 0;
+}
+
+.cards>div {
+    background-color: #666;
+    height: 300px;
+}
+
+.nav-side {
+    background-color: #F4F4F4;
+    height: 300px;
+    padding: 10px 30px;
+}
+
+.nav-side>.tit {
+    padding: 30px 40px;
+    padding-bottom: 50px;
+    border-bottom: 2px #d1d1d1 dashed;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-side .btn {
+    width: 156px;
+    height: 38px;
+    background-color: #018CEB;
+    outline: none;
+}
+
+.nav-side .info {
+    padding: 30px 30px;
+}
+
+.nav-side li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+}
+
+.nav-side .num {
+    color: #018CEB;
+    margin-right: 2px;
+}
+
+.context {
+    padding: 0 65px;
+}
+
+.c-m-tit,
+.c-s-tit {
+    font-size: large;
+}
+
+.c-m-content {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.c-m-content>div {
+    width: 100%;
+    margin: 0;
+}
+
+.c-m-content>div>div {
+    border: 2px rgb(230, 230, 230) solid;
+    margin: 0 0 -2px -1.5px;
+    padding-top: 20px;
+}
+
+.c-m-content>div>div:first-child {
+    margin-left: 0;
+    /* padding: 20px; */
+}
+
+.c-m-content>.res>div:nth-child(1),
+.c-m-content>.video>div:nth-child(1) {
+    width: 33.5%;
+}
+
+.b-info {
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+    height: 40px;
+}
+
+.b-info div {
+    color: #666;
+    font-size: 12px;
+}
+
+.b-info .read {
+    margin-right: 10px;
+}
+
+.b-info .hr {
+    margin-right: 5px;
+    padding-top: 2px
+}
+
+.tit-with-profile {
+    width: 100%;
+}
+
+.tit-with-profile.col-md-8 {
+    width: 66.66666667%;
+}
+
+.c-m-content>div>div>.img {
+    width: 100%;
+    height: 150px;
+    background-color: #666;
+}
+
+.artical-middle .img {
+    height: 200px !important;
+}
+
+.c-m-content>.artical-bottom>div {
+    width: 99.8%;
+}
+
+.c-m-content>.artical-bottom>div:last-child {
+    margin-left: 0;
+}
+
+.artical-top .tit-with-profile {
+    height: calc(100% + 2px);
+}
+
+.artical-top>.tit-with-profile>.tit {
+    /* padding-top: 20px; */
+    margin-bottom: 15px;
+}
+
+.artical-top>.tit-with-profile>.profile {
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.res .tit>div {
+    color: #fff;
+    background-color: #EE602A;
+    margin-top: 15px;
+    font-weight: bold;
+    width: 30px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.artical-middle .tit {
+    margin-bottom: 15px;
+}
+
+.video .img {
+    position: relative;
+}
+
+.video .img::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #fff 2px solid;
+    background-color: #444;
+    left: 10px;
+    bottom: 10px;
+}
+
+.video .img::after {
+    content: "▶";
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.video .tit {
+    margin-bottom: 10px;
+}
+
+.artical-bottom .tit-with-profile {
+    padding: 10px;
+}
+
+.artical-bottom .img {
+    width: 33.3% !important;
+    background-color: #fff !important;
+    padding: 15px;
+    /* padding-top: 0; */
+    margin-left: -5px;
+}
+
+.artical-bottom .img div {
+    height: 100%;
+    background-color: #666;
+}
+
+.artical-bottom .content {
+    padding-right: 0;
+}
+
+.artical-bottom .tit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.artical-bottom .profile {
+    line-height: 25px;
+}
+
+.artical-bottom .b-info {
+    flex-direction: row-reverse;
+}
+
+.c-s-tit {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    margin-top: 0 !important;
+}
+
+.more {
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.course,
+.lecture {
+    border: 2px rgb(230, 230, 230) solid;
+    border-bottom: 4px #018CEB solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lecture .img {
+    background-color: #666;
+    height: 150px;
+}
+
+.side .title {
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.side .time {
+    height: 30px;
+    line-height: 20px;
+}
+
+.side>div {
+    margin-top: 20px;
+}
+
+.course {
+    padding-top: 10px;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
+
+.course .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: #aaa 2px dashed;
+}
+
+.course .title span {
+    color: #018CEB;
+}
+
+.course .title div {
+    color: #666;
+}
+
+.course .content {
+    background-color: #aaa;
+    height: 100px;
+    width: 60%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.course .content::after {
+    content: "第128期";
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}

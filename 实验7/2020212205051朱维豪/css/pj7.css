@@ -1,0 +1,405 @@
+.main,
+.m-t-maintitle,
+.m-t-subtitle,
+.m-content {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 346px;
+    width: 688px;
+}
+
+.m-nav {
+    padding-top: 10px;
+    height: 22px;
+    border-bottom: 4px #268FC9 solid;
+}
+
+.m-nav-pane {
+    background: #268FC9;
+    padding-left: 20px;
+    /* text-align: center; */
+    height: 26px;
+    margin: 0;
+    width: 57px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 6px;
+    line-height: 28px;
+    border-radius: 2px;
+}
+
+.m-nav-date {
+    float: right;
+    height: 20px;
+    width: 76px;
+    margin: 0;
+    /* margin-top: 10px; */
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+}
+
+.m-nav-foo-icon {
+    border-radius: 2px;
+    margin: 0;
+    margin-left: 6px;
+    font-size: 16px;
+    width: 19px;
+    height: 19px;
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    line-height: 21px;
+}
+
+.icon-qiapian {
+    position: absolute;
+    right: 60px;
+}
+
+.m-nav-date span {
+    color: #0631BE;
+    font-size: 14px;
+    letter-spacing: 5px;
+    position: absolute;
+    right: 4px;
+    top: .5px
+}
+
+.m-t-mt-time {
+    margin: 0;
+    margin-left: 5px;
+}
+
+.m-maintitle {
+    border-bottom: 1px;
+}
+
+.m-t-mt-time span,
+.m-t-mt-time i {
+    font-size: 15px;
+    color: red;
+    margin-right: 1.9px;
+}
+
+.start-time,
+.end-time {
+    margin-left: 3px;
+}
+
+.m-t-mt-sum {
+    margin: 1px 0 0 20px;
+}
+
+.m-t-mt-sum span {
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.m-t-mt-sum .total-num {
+    color: red;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    margin-left: -4px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    /*按行排列*/
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    /*IE6、7专属*/
+    *zoom: 1;
+}
+
+.title-line-2 .ui-nav-item {
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.m-t-mt-totaltime {
+    margin-left: 9px;
+    letter-spacing: 5px;
+}
+
+.total-time {
+    margin-left: -8px;
+    color: red;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.m-t-mt-taketime {
+    margin: 0;
+    margin-left: 20px;
+    letter-spacing: 6px;
+}
+
+.m-t-mt-taketime span {
+    float: left;
+}
+
+.take-time {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.m-t-mt-transfer {
+    margin-left: 25px;
+    letter-spacing: 3px;
+}
+
+.transfer {
+    color: red;
+    font-weight: bold;
+}
+
+.m-t-subtitle {
+    background-color: #FFFBDE;
+    padding-top: 3px;
+}
+
+.m-t-subtitle a {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.m-t-subtitle i {
+    margin-left: 5px;
+}
+
+.m-t-subtitle::before {
+    content: "";
+    display: inline-block;
+    width: 548px;
+}
+
+.m-c-title {
+    background-color: #CEDCE8;
+    margin: 0;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+.m-c-title div {
+    text-align: center;
+    margin: 0;
+    height: 17px;
+    font-size: 14px;
+    color: #607A90;
+    letter-spacing: 4px;
+}
+
+.seat {
+    width: 68px;
+}
+
+.ride {
+    width: 400px;
+}
+
+.additional {
+    width: 80px;
+}
+
+.distance {
+    width: 60px;
+}
+
+.seat,
+.price,
+.additional,
+.distance {
+    border-left: 2px #fff solid;
+    box-sizing: border-box;
+    height: 100%;
+    border-left: 1px rgb(160, 160, 160) solid;
+}
+
+.t-title {
+    position: relative;
+    background-color: #e7e7e7;
+}
+
+.asd {
+    display: inline-block;
+    width: 7px;
+    height: 46px;
+    position: absolute;
+    border-left: 2px #268FC9 solid;
+    border-right: 2px #268FC9 solid;
+    box-sizing: border-box;
+    left: 102px;
+}
+
+
+/* .t-title::before {
+    content: "";
+    width: 50px;
+} */
+
+.t-title-add {
+    position: absolute;
+    display: inline-block;
+    top: -10px;
+    left: 116px;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+.t-title a {
+    float: right;
+    text-decoration: underline;
+    margin-right: 2px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.icon-xinghao {
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #268FC9;
+    position: absolute;
+    top: 4px;
+}
+
+.icon-tianqitaiyangqichuang,
+.icon-yun {
+    color: red;
+    margin-left: 73px;
+    font-size: 18px;
+}
+
+.t-title-content {
+    border: 1px rgb(163, 163, 163) solid;
+    height: 44px;
+}
+
+.t-title-content a {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #268FC9;
+    width: 200px;
+    padding: 0;
+    line-height: 20px;
+    margin-left: -5px;
+    margin-top: 2px;
+    letter-spacing: 4px;
+}
+
+.t-title-content a div {
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 100;
+    word-break: break-word;
+}
+
+.content-setime {
+    margin-left: 2px !important;
+    font-weight: bold;
+    padding-top: 8px;
+    width: 90px;
+    letter-spacing: .5px;
+}
+
+.content-setime div {
+    height: 13px;
+}
+
+.t-title-content div {
+    margin: 0;
+}
+
+.t-title-content .ride {
+    height: 44px;
+}
+
+.icon-title {
+    margin-left: -2px !important;
+    float: left;
+    margin-top: 12px !important;
+    font-size: 15px;
+    width: 50px;
+    display: inline-block;
+}
+
+.bus {
+    margin-left: 18px !important;
+}
+
+.bus-title {
+    color: #996600;
+}
+
+.icon-gongjiao {
+    color: #996600;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.price {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.t-title-asd {
+    height: 48px;
+}
+
+.icon-yun {
+    color: #268FC9;
+    font-size: 12px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.icon-train2huoche {
+    margin-left: 3px;
+}
+
+.additional div,
+.distance div {
+    text-align: center;
+    padding-top: 1.5px;
+}
+
+.distance div {
+    padding-top: 8px;
+}
+
+.ttt1 {
+    position: absolute;
+    top: 16px;
+    left: 35px;
+}
+
+.t-ttt1 {
+    position: absolute;
+    top: 14px;
+    left: 405px;
+    letter-spacing: 4px;
+}
+
+.a {
+    width: 200px;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}

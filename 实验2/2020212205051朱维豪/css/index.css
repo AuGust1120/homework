@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-02 17:28:04
+ * @version $Id$
+ */
+body{
+	margin: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.m-bk{
+	position: absolute;
+    width: 1063px;
+    height: 544px;
+    background: url('../img/bk.png') no-repeat;
+    opacity: .05;
+}
+firstline{
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    list-style-type: none; 
+}
+.m-menu {
+    padding: 14px 44px;
+    width: 1063px;
+    font-size: 15px;
+    left: -5;
+    font-weight: bold;
+    border-bottom: 0.5px solid #6c6c6c;
+    letter-spacing: 0.05px;
+    color: #6c6c6c;
+}
+.m-menu-item {
+    margin-left: 15px;
+}
+ul{
+    position: absolute;
+    left: -6px;
+    top: 50px;
+    list-style-type: none; 
+}
+ul li{
+    line-height: 1.7em;
+    margin-bottom: 45px;
+    font-size: 13px;
+    letter-spacing: -0.05px;
+    color: #6c6c6c;
+}
+.line1{
+    font-size: 18.5px;
+    line-height: 1.5em;
+    font-weight: bolder;
+    color: black;
+ }
+ .line2{
+     margin-top: 1em;
+     color: black;
+ }
+ .line3{
+     color: #6c6c6c;
+ }
+.title1{
+    position: absolute;
+    left: 770px;
+    top: 80px;
+    height: 46px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    border-bottom:  1px solid rgb(199, 188, 188);
+}
+ol {
+    position: absolute;
+    left: 773px;
+    top: 158px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+ol li {
+    line-height: 1.3em;
+    margin-bottom: 22px;
+    color: #6c6c6c;
+}
+.line4 {
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+}
+.line5 {
+    margin-top: 3px;
+    font-size: 13px;
+    color: black;
+}
+.line6 {
+    font-size:  13px;
+    color: #6c6c6c;
+}
+.number1 {
+    position: absolute;
+    top: 176px;
+    left: 772px;
+    font-size: 22px;
+    color: #c9c9c9;
+}
+.number2 {
+    position: absolute;
+    top: 308px;
+    left: 772px;
+    font-size: 22px;
+    color: #c9c9c9;
+}
+.number3 {
+    position: absolute;
+    top: 436px;
+    left: 772px;
+    font-size: 22px;
+    color: #c9c9c9;
+}
+.ddd1{
+    position: absolute;
+    top: 150px;
+    left: 490px;
+    font-size: 30px;
+    color: #c9c9c9;
+}
+.ddd2{
+    position: absolute;
+    top: 320px;
+    left: 490px;
+    font-size: 30px;
+    color: #c9c9c9;
+}
+.ddd3{
+    position: absolute;
+    top: 490px;
+    left: 490px;
+    font-size: 30px;
+    color: #c9c9c9;
+}
