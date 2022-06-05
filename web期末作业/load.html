@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+
+        <!-- 登录 -->
+
+        <div class="container">
+            <div class="user singinBx">
+                <div class="imgBx"><img src="img/1.jpg" alt=""></div>
+                <div class="formBx">
+                    <form action="">
+                        <h2>登录</h2>
+                        <input type="number" placeholder="请输入手机号" id="tel1" />
+                        <input type="password" placeholder="请输入密码" id="pas" />
+                        <input type="submit" id="login" value="登录" onclick="enter();">
+                        <p class="signup">没有账号？<a href="#" onclick="topggleForm();">注册</a></p>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 注册 -->
+
+            <div class="user singupBx">
+                <div class="formBx">
+                    <form action="">
+                        <h2>注册</h2>
+                        <input type="text" placeholder="请输入昵称" id="name" />
+                        <input type="number" placeholder="请输入手机号" id="tel" />
+                        <input type="password" placeholder="请输入密码" id="password" />
+                        <input type="password" placeholder="请确认密码" id="affirmPassword" />
+                        <input type="submit" id="register" value="注册" onclick="affirm();">
+                        <p class="signup">已有账号？<a href="#" onclick="topggleForm();">登录</a></p>
+                        <input type="submit" id="register" value="清空数据" onclick="isclear();">
+                        <input type="submit" id="register" value="查看数据" onclick="examine();">
+                    </form>
+                </div>
+                <div class="imgBx"><img src="img/2.jpg" alt=""></div>
+            </div>
+
+        </div>
+    </section>
+    <script type="text/javascript" src="js/load.js"></script>
+</body>
+
+</html>
