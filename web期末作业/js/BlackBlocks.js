@@ -136,3 +136,8 @@ function score() {
     }
 
 }
+
+function back() {
+    window.close();
+    window.open("index.html");
+}
