@@ -115,3 +115,8 @@ function random_d() {
 window.onload = function() {
     reset();
 }
+
+function quit() {
+    window.close();
+    window.open("index.html");
+}
