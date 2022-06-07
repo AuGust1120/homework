@@ -1,6 +1,7 @@
 var box = document.getElementById("box");
 var ball = document.getElementById("ball");
 var btn = document.getElementById("btn");
+var btn1 = document.getElementById("btn1");
 var slider = document.getElementById("slider")
 var obrick = document.getElementById("brick")
 var brickArr = obrick.getElementsByTagName("div")
@@ -61,6 +62,7 @@ slider.style.left = beginGo + "px"
 //开始按钮点击事件
 btn.onclick = function() {
     btn.style.display = "none";
+    btn1.style.display = "none";
     isRunning = true;
     clearInterval(timer);
     timer = setInterval(function() {
@@ -113,8 +115,11 @@ btn.onclick = function() {
         }
     }, 20)
 }
-
-//鼠标控制滑块
+btn1.onclick = function() {
+        window.close();
+        window.open("index.html");
+    }
+    //鼠标控制滑块
 slider.onmousedown = function(e) {
     var e = e || window.event;
     //获取滑块初始位置
