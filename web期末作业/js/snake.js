@@ -1,6 +1,7 @@
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
-
+var btn = document.getElementById("btn");
+var btn1 = document.getElementById("btn1");
 var snake = []; //定义一条蛇，画蛇的身体
 var snakeCount = 6; //初始化蛇的长度
 var foodx = 0;
@@ -169,6 +170,15 @@ document.onkeydown = function(e) {
 window.onload = function() //调用函数
     {
         start();
-        setInterval(move, 150);
-        drawtable();
     }
+
+btn1.onclick = function() {
+    window.close();
+    window.open("index.html");
+}
+btn.onclick = function() {
+    btn.style.display = "none";
+    btn1.style.display = "none";
+    setInterval(move, 150);
+    drawtable();
+}
