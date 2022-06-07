@@ -97,6 +97,20 @@ body {
     cursor: pointer;
 }
 
+#quit {
+    display: inline-block;
+    font-size: 28px;
+    width: 100px;
+    height: 28px;
+    background-color: #20a6fa;
+    color: #7194ff;
+    text-shadow: 1px 1px 2px #71d9ff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #4c98f5;
+    text-align: center;
+    cursor: pointer;
+}
+
 #d1 {
     left: 0px;
 }
